@@ -72,7 +72,7 @@ nav{
     border-radius: 20px;
     transition: 0.5s ease-in-out;
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
-    margin: 15px; /* Adds space around each card */
+    margin: 15px; 
 }
 
 .card:hover {
@@ -132,17 +132,16 @@ a:hover {
     padding: 8px 15px;
     border-radius: 5px;
     font-size: 14px;
-    /* border: 1px solid #555; */
     cursor: pointer;
     transition: 0.5;
-    position: relative; /* This acts as the 'anchor' for the meaning */
+    position: relative; 
     display: inline-block;
     cursor: pointer;
 }
 
 .meaning {
-    position: absolute; /* This pulls it out of the normal layout flow */
-    bottom: 135%;         /* Puts it right below the skill name */
+    position: absolute;
+    bottom: 135%;         
     left: 50%;
     transform: translateX(-50%); /* Centers it perfectly */
     
@@ -151,13 +150,13 @@ a:hover {
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-    width: 250px;       /* Give it a set width */
+    width: 300px;       
     backdrop-filter: blur(10px);
     
     opacity: 0;
-    visibility: hidden; /* Better than font-size: 1px */
+    visibility: hidden; 
     transition: 0.5s ease;
-    z-index: 10;        /* Ensures it stays on top of other elements */
+    z-index: 10;        
 }
 
 /* Hover Logic */
@@ -172,7 +171,7 @@ li:hover .meaning {
 @media (max-width: 600px) {
   .container {
     padding: 20px;
-    /* This ensures cards don't touch the screen edges on phones */
+   
   }
   
 }
@@ -201,3 +200,4 @@ footer h3 {
     color: white;
 
 }
+
